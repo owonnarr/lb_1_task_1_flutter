@@ -44,8 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                const SizedBox(height: 10),
-                const SizedBox(
+                Container(
                   width: 300,
                   child: Text(
                     '«SuperTech»',
@@ -53,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
                   ),
                 ),
-                SizedBox(
+                Container(
                   width: 300,
                   child: TextFormField(
                     onChanged: (text) {},
@@ -61,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     decoration: InputDecoration(hintText: 'Login'),
                   ),
                 ),
-                SizedBox(
+                Container(
                   width: 300,
                   child: TextFormField(
                     onChanged: (text) {},
@@ -70,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     decoration: InputDecoration(hintText: 'Type password here'),
                   ),
                 ),
-                SizedBox(
+                Container(
                   width: 300,
                   child: TextFormField(
                     onChanged: (text) {},
